@@ -1,0 +1,65 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0E1822"
+    tools:context="fragments.StepFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="match_parent"
+                android:layout_height="159dp"
+                android:src="@drawable/logo_white"/>
+            <TextView
+                android:id="@+id/chartTitleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Last 7 days Step Data"
+                android:textColor="#FFFFFF"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"/>
+
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/barChart"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="16dp" />
+            <TextView
+                android:id="@+id/stepCountTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Today Your Total Steps"
+                android:textColor="#00ceb4"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+            <TextView
+                android:id="@+id/averageSteps30daysTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Today Your Total Steps"
+                android:textColor="#00ceb4"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+            <TextView
+                android:id="@+id/averageSteps7daysTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Today Your Total Steps"
+                android:textColor="#00ceb4"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

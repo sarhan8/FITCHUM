@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fb9403">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+    tools:context=".TestActivity">
+
+    <Button
+        android:id="@+id/generate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate Steps" />
+
+
+        <Button
+            android:id="@+id/generate_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Generate Sleep" />
+
+        <Button
+            android:id="@+id/generate_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Generate HeartRate Data" />
+
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next Button" />
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        app:showAsAction="withText" />
+
+    <item android:id="@+id/nav_sleep"
+        android:icon="@drawable/ic_sleep"
+        android:title="Sleep Analytics"
+        app:showAsAction="withText"/>
+
+    <item android:id="@+id/heart"
+        android:icon="@drawable/ic_heart"
+        android:title="HeartRate"
+        />
+
+    <item android:id="@+id/nav_step"
+        android:icon="@drawable/ic_step"
+        android:title="Steps Analytics"/>
+
+    <item android:id="@+id/nav_heart"
+        android:icon="@drawable/ic_heartrate"
+        android:title="Heart Analytics"/>
+</menu>
